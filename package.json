@@ -65,6 +65,9 @@
     "mocha": "^2.4.5",
     "should": "^8.2.2"
   },
+  "dependencies": {
+    "querystring-browser": "^1.0.4"
+  },
   "scripts": {
     "test": "mocha ./test/fast.js ./test/slow.js -b -t 100s -R list"
   }
